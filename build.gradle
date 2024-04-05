@@ -1,0 +1,42 @@
+plugins {
+    id 'java-library'
+    id "io.freefair.lombok" version "8.4"
+    id 'maven-publish'
+}
+
+group 'by.vitikova.discovery'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = group
+            artifactId = project.name
+            version = version
+            from components.java
+        }
+    }
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-security:3.2.1'
+    implementation 'org.springframework.data:spring-data-commons:3.2.1'
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:3.2.1'
+    implementation "org.mapstruct:mapstruct:1.4.1.Final"
+
+    annotationProcessor "org.mapstruct:mapstruct-processor:1.4.1.Final"
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.named("build") {
+    finalizedBy('publishToMavenLocal')
+}
