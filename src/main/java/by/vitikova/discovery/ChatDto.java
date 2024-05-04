@@ -1,6 +1,7 @@
 package by.vitikova.discovery;
 
 import by.vitikova.discovery.constant.ChatStatus;
+import by.vitikova.discovery.constant.ChatType;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,6 +17,7 @@ public class ChatDto {
     private String userName;
     private List<MessageDto> messageList;
     private ChatStatus status;
+    private ChatType type;
     private LocalDateTime createDate;
     private LocalDateTime updateDate;
 }

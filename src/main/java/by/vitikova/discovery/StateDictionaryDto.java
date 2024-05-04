@@ -7,11 +7,14 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-public class StateDto {
+public class StateDictionaryDto {
 
     private Long id;
-    private Long dictionaryId;
-    private double value;
+    private Long recordId;
+    private String name;
+    private String uuid;
     private String description;
+    private boolean isActive;
+    private boolean isConstant;
     private LocalDateTime dateCreated;
 }
