@@ -13,6 +13,7 @@ public enum RoleName {
     ADMIN("ADMIN"),
     SUPPORT("SUPPORT"),
     VET("VET"),
+    EDITOR("EDITOR"),
     USER("USER");
 
     private final String role;
