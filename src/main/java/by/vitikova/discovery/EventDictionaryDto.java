@@ -14,7 +14,7 @@ public class EventDictionaryDto {
     private String name;
     private String uuid;
     private String description;
+    private String typeVaccination;
     private boolean isActive;
-    private boolean isConstant;
     private LocalDateTime dateCreated;
 }

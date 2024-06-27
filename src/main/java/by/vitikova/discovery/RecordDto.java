@@ -23,4 +23,5 @@ public class RecordDto {
     private SexName sex;
     private String description;
     private boolean hasPedigree;
+    private boolean hasExhibition;
 }

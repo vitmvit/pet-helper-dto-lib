@@ -15,6 +15,5 @@ public class StateDictionaryDto {
     private String uuid;
     private String description;
     private boolean isActive;
-    private boolean isConstant;
     private LocalDateTime dateCreated;
 }

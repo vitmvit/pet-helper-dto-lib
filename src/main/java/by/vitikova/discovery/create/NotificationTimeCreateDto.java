@@ -12,6 +12,7 @@ public class NotificationTimeCreateDto {
     private Long notificationId;
     private LocalDateTime time;
     private LocalDateTime date;
+    private Long recordId;
     private Long eventId;
     private Long stateId;
 }

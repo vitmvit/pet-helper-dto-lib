@@ -9,4 +9,5 @@ import lombok.Setter;
 public class NotificationUpdateDto extends NotificationCreateDto {
 
     private Long id;
+    private boolean isActive;
 }

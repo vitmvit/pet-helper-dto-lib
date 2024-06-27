@@ -10,4 +10,5 @@ public class MessageCreateDto {
     private Long chatId;
     private String senderName;
     private String content;
+    private String uuidPhoto;
 }

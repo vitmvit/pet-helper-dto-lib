@@ -1,19 +1,22 @@
 package by.vitikova.discovery;
 
+import by.vitikova.discovery.constant.ArticleStatus;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.swing.*;
 import java.time.LocalDateTime;
 
-@Setter
 @Getter
-public class NotificationDto {
+@Setter
+public class ArticleDto {
 
     private Long id;
-    private String userLogin;
     private String name;
-    private String description;
-    private boolean isActive;
+    private String redactorName;
+    private String photoUuid;
+    private String content;
+    private ArticleStatus status;
     private LocalDateTime createDate;
     private LocalDateTime updateDate;
 }

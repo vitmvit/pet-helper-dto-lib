@@ -10,5 +10,6 @@ public class EventDictionaryCreateDto {
     private Long recordId;
     private String name;
     private String description;
+    private String typeVaccination;
     private String uuid;
 }

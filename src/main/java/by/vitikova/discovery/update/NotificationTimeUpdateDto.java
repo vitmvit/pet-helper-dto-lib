@@ -1,18 +1,12 @@
 package by.vitikova.discovery.update;
 
+import by.vitikova.discovery.create.NotificationTimeCreateDto;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDateTime;
-
 @Getter
 @Setter
-public class NotificationTimeUpdateDto {
+public class NotificationTimeUpdateDto extends NotificationTimeCreateDto {
 
     private Long id;
-    private Long notificationId;
-    private LocalDateTime time;
-    private LocalDateTime date;
-    private Long eventId;
-    private Long stateId;
 }
