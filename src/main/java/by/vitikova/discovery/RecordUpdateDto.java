@@ -10,4 +10,5 @@ public class RecordUpdateDto extends RecordCreateDto {
 
     private Long id;
     private boolean hasPedigree;
+    private boolean hasExhibition;
 }

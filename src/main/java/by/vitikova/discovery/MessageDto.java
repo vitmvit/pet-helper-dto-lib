@@ -13,5 +13,6 @@ public class MessageDto {
     private Long chatId;
     private String senderName;
     private String content;
+    private String uuidPhoto;
     private LocalDateTime createDate;
 }

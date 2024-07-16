@@ -12,6 +12,8 @@ public class RecordCreateDto {
 
     private String userLogin;
     private String name;
+    private String breed;
+    private String animalType;
     private String uuidAvatar;
     private LocalDateTime dataBirthday;
     private String fullName;

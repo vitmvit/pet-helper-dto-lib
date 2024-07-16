@@ -15,10 +15,13 @@ public class RecordDto {
     private LocalDateTime updateDate;
     private String userLogin;
     private String name;
+    private String breed;
+    private String animalType;
     private String uuidAvatar;
     private LocalDateTime dataBirthday;
     private String fullName;
     private SexName sex;
     private String description;
     private boolean hasPedigree;
+    private boolean hasExhibition;
 }
