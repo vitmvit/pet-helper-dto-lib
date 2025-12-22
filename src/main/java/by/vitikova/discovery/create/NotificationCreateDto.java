@@ -6,7 +6,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class NotificationCreateDto {
-
+    //todo
     private String userLogin;
     private String name;
     private String description;

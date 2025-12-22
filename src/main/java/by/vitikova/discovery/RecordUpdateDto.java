@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class RecordUpdateDto extends RecordCreateDto {
-
+    //todo
     private Long id;
     private boolean hasPedigree;
     private boolean hasExhibition;

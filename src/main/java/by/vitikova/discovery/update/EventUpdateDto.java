@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class EventUpdateDto extends EventCreateDto {
-
+    //todo
     private Long id;
 }

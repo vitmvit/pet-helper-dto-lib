@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class RecordDto {
-
+    //todo
     private Long id;
     private LocalDateTime createDate;
     private LocalDateTime updateDate;

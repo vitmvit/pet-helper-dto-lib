@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class EventCreateDto {
-
+    //todo
     private Long dictionaryId;
     private String textColor;
     private String description;

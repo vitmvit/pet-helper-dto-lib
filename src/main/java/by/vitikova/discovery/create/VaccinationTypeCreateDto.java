@@ -6,6 +6,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class VaccinationTypeCreateDto {
-
+    //todo
     private String name;
 }

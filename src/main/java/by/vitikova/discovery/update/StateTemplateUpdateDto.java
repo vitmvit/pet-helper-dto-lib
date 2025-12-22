@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class StateTemplateUpdateDto extends StateTemplateCreateDto {
-
+    //todo
     private Long id;
 }

@@ -5,12 +5,11 @@ import lombok.Getter;
 @Getter
 public enum ChatType {
 
-    SUPPORT("SUPPORT"),
-    MEDICAL("MEDICAL");
+    SUPPORT("SUPPORT");
 
     private final String type;
 
     ChatType(String type) {
         this.type = type;
     }
-}
+    }

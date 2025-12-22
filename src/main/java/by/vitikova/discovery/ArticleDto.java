@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class ArticleDto {
-
+    //todo
     private Long id;
     private String name;
     private String redactorName;

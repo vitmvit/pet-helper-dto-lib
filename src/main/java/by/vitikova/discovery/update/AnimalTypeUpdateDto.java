@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class AnimalTypeUpdateDto extends AnimalTypeCreateDto {
-
+    //todo
     private Long id;
 }

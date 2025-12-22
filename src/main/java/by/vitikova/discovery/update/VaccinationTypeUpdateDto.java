@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class VaccinationTypeUpdateDto extends VaccinationTypeCreateDto {
-
+    //todo
     private Long id;
 }

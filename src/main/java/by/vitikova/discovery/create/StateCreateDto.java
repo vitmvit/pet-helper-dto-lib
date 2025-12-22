@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class StateCreateDto {
-
+    //todo
     private Long dictionaryId;
     private double value;
     private String description;

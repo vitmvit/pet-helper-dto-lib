@@ -1,8 +1,9 @@
 package by.vitikova.discovery.auth;
 
-/**
- * DTO объект для хранения токена
- */
+import jakarta.validation.constraints.NotBlank;
+
 public record JwtDto(
+
+        @NotBlank(message = "Access token is required")
         String accessToken) {
 }

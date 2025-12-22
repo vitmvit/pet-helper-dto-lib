@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ArticleUpdateDto extends ArticleCreateDto {
-
+    //todo
     private Long id;
 }

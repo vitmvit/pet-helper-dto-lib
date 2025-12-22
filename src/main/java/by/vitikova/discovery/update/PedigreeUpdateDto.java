@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class PedigreeUpdateDto extends PedigreeCreateDto {
-
+    //todo
     private Long id;
 }

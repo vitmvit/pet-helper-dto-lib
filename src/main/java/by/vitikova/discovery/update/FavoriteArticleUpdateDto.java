@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class FavoriteArticleUpdateDto extends FavoriteArticleCreateDto {
-
+    //todo
     private Long id;
 }

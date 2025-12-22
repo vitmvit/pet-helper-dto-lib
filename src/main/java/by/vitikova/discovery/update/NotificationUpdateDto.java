@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class NotificationUpdateDto extends NotificationCreateDto {
-
+    //todo
     private Long id;
     private boolean isActive;
 }

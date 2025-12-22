@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class EventDictionaryDto {
-
+    //todo
     private Long id;
     private Long recordId;
     private String name;

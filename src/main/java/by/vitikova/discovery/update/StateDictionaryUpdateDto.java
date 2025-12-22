@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class StateDictionaryUpdateDto extends StateDictionaryCreateDto {
-
+    //todo
     private Long id;
     private boolean isActive;
 }

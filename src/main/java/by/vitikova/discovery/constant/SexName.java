@@ -2,6 +2,7 @@ package by.vitikova.discovery.constant;
 
 import lombok.Getter;
 
+//todo
 @Getter
 public enum SexName {
     MALE("MALE"),

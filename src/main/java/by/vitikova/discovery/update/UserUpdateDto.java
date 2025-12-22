@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class UserUpdateDto {
-
+    //todo
     private String login;
     private String password;
 }

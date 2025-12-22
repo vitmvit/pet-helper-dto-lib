@@ -8,7 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ChatUpdateDto {
-
+    //todo
     private Long id;
     private ChatStatus status;
     private ChatType type;

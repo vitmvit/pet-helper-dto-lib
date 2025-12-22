@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class ArticleCreateDto {
-
+    //todo
     private String name;
     private String redactorName;
     private String photoUuid;

@@ -6,7 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class PedigreeDto {
-
+    //todo
     private Long id;
     private Long recordId;
     private Long parentExistOneId;

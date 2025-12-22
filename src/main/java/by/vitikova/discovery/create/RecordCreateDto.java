@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class RecordCreateDto {
-
+    //todo
     private String userLogin;
     private String name;
     private String breed;

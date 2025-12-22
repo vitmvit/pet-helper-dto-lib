@@ -4,15 +4,10 @@ import lombok.Getter;
 
 import java.util.stream.Stream;
 
-/**
- * Enum ролей пользователей
- */
-
 @Getter
 public enum RoleName {
     ADMIN("ADMIN"),
     SUPPORT("SUPPORT"),
-    VET("VET"),
     EDITOR("EDITOR"),
     USER("USER");
 

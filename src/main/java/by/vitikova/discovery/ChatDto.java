@@ -11,7 +11,7 @@ import java.util.List;
 @Getter
 @Setter
 public class ChatDto {
-
+    //todo
     private Long id;
     private String supportName;
     private String userName;

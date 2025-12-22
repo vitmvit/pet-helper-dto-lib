@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class UserUpdateDateDto {
-
+    //todo
     private String login;
     private LocalDateTime lastVisit;
 }

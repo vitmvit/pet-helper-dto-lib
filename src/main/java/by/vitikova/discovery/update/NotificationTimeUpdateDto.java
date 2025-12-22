@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class NotificationTimeUpdateDto extends NotificationTimeCreateDto {
-
+    //todo
     private Long id;
 }
